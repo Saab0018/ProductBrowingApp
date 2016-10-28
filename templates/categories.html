@@ -1,0 +1,9 @@
+<main>
+
+  <div class="row">
+    <div class="col-xs-6 col-lg-4" ng-repeat="category in allData.categories">
+
+      <a ui-sref="books({categoryID: category._id})" ui-sref-active="active "><img src='{{category.image}}' width="300" height="300" alt=""></a>
+    </div>
+  </div>
+</main>
